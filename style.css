@@ -1,0 +1,259 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0,2);
+    padding: 0px 5%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #505050;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+    background-color: rgba(107, 214, 247, 0.603);
+    color: rgb(84, 84, 223);
+    border-radius: 5px;
+}
+
+.logo
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(18, 173, 235, 0.781);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#home
+{
+    width: 100%;
+    height: 95vh;
+    font-weight: bold;
+}
+
+.home p
+{
+    line-height: 0%;
+    margin: 55px;
+}
+
+.home p:nth-child(1)
+{
+    font-display: ;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+}
+
+.home p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+
+.home p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+.home p:nth-child(4)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+.home
+{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(12% , 42%);
+}
+
+.picture
+{
+    max-width: 250px;
+    height: 30%;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    transform: translateX(-70%);
+}
+
+.About
+{
+    height: 55vh;
+    background-color: rgb(127, 153, 153);
+    padding: 2% 10% 10%;
+}
+
+.About-desc
+{
+    margin: 50px 50px;
+}
+
+.About-desc p:nth-child(1)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.About-desc p:nth-child(2)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+}
+
+.row
+{
+    margin: 30px;
+    padding: 20px%;
+    display: flex;
+}
+
+.row .colum h2
+{
+    text-align: center;
+}
+
+.row .colum p
+{
+    text-align: justify;
+}
+
+.colum
+{
+    flex: 50%;
+    padding: 30px;
+    height: 200px;
+}
+
+/* Skill */
+.Skill
+{
+    height: 45vh;
+    background-color: rgb(24, 240, 157);
+    padding: 2% 10% 10%;
+}
+
+.Skill-desc
+{
+    margin: 50px 50px;
+}
+
+.Skill-desc p:nth-child(1)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Skill-desc p:nth-child(2)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+}
+
+.box
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.bo-1
+{
+    width: 350px;
+    height: 350px;
+}
+
+/* Contact */
+.Contact
+{
+    height: 20vh;
+    background-color: rgb(72, 83, 238);
+    padding: 2% 10% 10%;
+}
+
+.Contact-desc
+{
+    margin: 30px 30px;
+}
+
+.Contact-desc p:nth-child(1)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Contact-desc p:nth-child(2)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+}
+
+.con
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.co1
+{
+    width: 350px;
+    height: 350px;
+}
